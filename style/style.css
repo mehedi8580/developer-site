@@ -33,6 +33,7 @@ h1{
 .main-div{
     display: flex;
     
+    
 }
 
 .half-div{
@@ -46,9 +47,9 @@ h1{
 
 }
 .image_div img{
-    position: absolute;
-   bottom: 0px;
-   right: 0px;
+    position: relative;
+   left: 240px;
+   top: 100px;
 }
 
 .link_button{
@@ -57,9 +58,82 @@ h1{
    padding: 10px 40px;
    border-radius: 5px;
    margin-bottom: 40px; 
-   color: aliceblue;
-   
-   
-   
+   color: rgb(255, 255, 255);
  
+ 
+}
+
+.margin_color{
+    height: 5px;
+    background-image: linear-gradient(orange, tomato);
+   
+}
+
+.second_banner{
+    display: flex;
+    margin-left: 0px;
+   
+   
+}
+.profile_pic{
+   
+    margin-top: 50px;
+    padding-bottom: 0px;
+    background-image: linear-gradient(orange, tomato);
+    margin-left: 0;
+    width: 300px;
+    border-top-right-radius: 30%;
+    border-bottom-right-radius: 20%;
+
+}
+.profile_pic img{
+
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 10px solid orange;
+    margin-left: 90px;
+    
+   
+}
+
+
+.text_divv{
+
+    padding-left: 300px;
+    padding-top: 60px;
+  
+
+}
+
+.worke_on_div{
+display: flex;
+padding:0 7%;
+padding-bottom: 20px;
+
+}
+
+.sub_div1{
+    text-align: center;
+    width: 33%;
+    padding: 50px;
+    background-color: azure;
+    margin-left: 20px;
+    border-radius: 5%;
+    box-shadow:
+    inset 0 -3em 3em rgba(0,0,0,0.1),
+          0 0  0 2px rgb(255,255,255),
+          0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+.sub_div1 img{
+    height: 150px;
+    width: 150px;
+}
+
+.backgound_orange{
+    background-color: rgb(240, 204, 198);
+}
+
+.backgound_blue{
+    background-color: rgb(183, 165, 233);
 }
