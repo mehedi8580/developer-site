@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.banner{
+
+    background-image: url(../images/5975972.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
+.logo-banner{
+    margin-top: 0px;
+
+}
+
+.orange_color{
+    color: orange;
+}
+
+.logo{
+   height: 80px;
+   width: 250px;
+   margin-bottom: 50px;
+   margin-top: 30px;
+}
+h1{
+    font-size: 50px;
+}
+.main-div{
+    display: flex;
+    
+}
+
+.half-div{
+    width: 45%;
+    margin-left: 8px;
+   
+}
+.text-div{
+ 
+    padding: 5px;
+
+}
+.image_div img{
+    position: absolute;
+   bottom: 0px;
+   right: 0px;
+}
+
+.link_button{
+    text-decoration: none;
+   background-image: linear-gradient(yellow,tomato);
+   padding: 10px 40px;
+   border-radius: 5px;
+   margin-bottom: 40px;
+   
+   
+ 
+}
