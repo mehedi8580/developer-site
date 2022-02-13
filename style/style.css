@@ -10,6 +10,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    border-bottom: 5px dashed tomato;
    
 }
 .logo-banner{
@@ -72,6 +73,8 @@ h1{
 .second_banner{
     display: flex;
     margin-left: 0px;
+    border-bottom: 5px dashed tomato;
+    padding-bottom: 40px;
    
    
 }
@@ -136,4 +139,41 @@ padding-bottom: 20px;
 
 .backgound_blue{
     background-color: rgb(183, 165, 233);
+}
+
+.contact{
+   
+
+}
+.contact_div{
+    display: flex;
+    padding: 20px;
+    padding-left: 110px;
+}
+.contact_item{
+    display: flex;
+    box-shadow:
+    inset 0 -3em 3em rgba(0,0,0,0.1),
+          0 0  0 2px rgb(255,255,255),
+          0.3em 0.3em 1em rgba(0,0,0,0.3);
+
+          margin: 5px 50px;
+          border: 5px solid tomato;
+          border-top-left-radius: 15px;
+          border-bottom-left-radius: 15px;
+    
+}
+.item1 img{
+    height: 30px;
+    width: 30px;
+}
+.item1{
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+.item2{
+    padding: 15px 20px;
 }
